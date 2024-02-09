@@ -2,7 +2,7 @@
 
 include "String.aes"
 
-contract DoctorAppointment =
+contract AppointmentFromDoctorNearByYou =
 
   record state = {
     doctor: address,
